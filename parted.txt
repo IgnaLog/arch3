@@ -1,0 +1,25 @@
+Model: Generic Flash Disk (scsi)
+Disk /dev/sda: 8141MB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name                 Flags
+ 1      1049kB  8141MB  8140MB  fat32        Main Data Partition  msftdata
+
+
+Model: Samsung SSD 970 EVO Plus 1TB (nvme)
+Disk /dev/nvme0n1: 1000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name                          Flags
+ 1      1049kB  106MB   105MB   fat32        EFI system partition          boot, esp
+ 2      106MB   123MB   16.8MB               Microsoft reserved partition  msftres
+ 3      123MB   725GB   725GB   ntfs         Basic data partition          msftdata
+ 5      725GB   725GB   537MB   fat32        /boot                         boot, esp
+ 6      725GB   999GB   274GB   ext4         /root
+ 4      1000GB  1000GB  546MB   ntfs                                       hidden, diag
+
+

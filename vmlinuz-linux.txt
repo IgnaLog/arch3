@@ -1,0 +1,1 @@
+/boot/vmlinuz-linux: Linux kernel x86 boot executable bzImage, version 6.8.1-arch1-1 (linux@archlinux) #1 SMP PREEMPT_DYNAMIC Sat, 16 Mar 2024 17:15:35 +0000, RO-rootFS, swap_dev 0XC, Normal VGA
